@@ -1,0 +1,13 @@
+access_key                  = ""
+secret_key                  = ""
+bucket                      = "" # bucket name
+key                         = "" # filename
+region                      = "" # region
+dynamodb_table              = "" # dynamodb_table_name
+
+# for localstack
+endpoints                   = { s3 = "http://s3.localhost.localstack.cloud:4566" }
+use_path_style              = true
+skip_credentials_validation = true
+skip_metadata_api_check     = true
+skip_region_validation      = true
